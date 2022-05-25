@@ -1,0 +1,19 @@
+Weekly plans:
+
+Week 1 (5/26-6/1):
+* create-react-app
+* write code for geocoding API call
+* write code for NOAA NWS API call
+* store forecast data in a top-level component state
+
+Week 2 (6/2-6/8):
+* build & style route 1
+* build & style route 2
+* build & style route 3
+* build buttons for switching between routes
+
+Week 3 (6/9-6/15):
+* ensure proptypes are set up
+* user/manual testing
+* run lint
+* build & run tests

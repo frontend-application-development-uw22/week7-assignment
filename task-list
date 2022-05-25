@@ -1,0 +1,14 @@
+Tasks
+
+* create-react-app
+* write code for geocoding API call
+* write code for NOAA NWS API call
+* store forecast data in a top-level component state
+* build & style route 1
+* build & style route 2
+* build & style route 3
+* build buttons for switching between routes
+* ensure proptypes are set up
+* user/manual testing
+* run lint
+* build & run tests

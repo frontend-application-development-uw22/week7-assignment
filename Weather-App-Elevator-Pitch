@@ -1,0 +1,7 @@
+Weather App
+
+My weather app will be useful for anyone who wants a quick weather update, especially if they don't want to log into a service, or need much detail in the forecast. This app will be responsive so it may be accessed by a wide range of devices, and lightweight to avoid long loading times, improving user experience. 
+
+The app will have a form field at the top for manual entry of location data which will be passed to the NOAA NWS API (https://api.weather.gov). 
+
+The first React route will display the current forecast ("What jacket do I need today/tonight?"). As NOAA NWS forecasts are provided in 12-hour day/night chunks, the second route will show forecast data for 4 12-hour periods ("Do I mow the lawn today or tomorrow?"). A third and final route will show a 7-day forecast of only daytime forecast data ("What's the best day this week to call out of work and go fishing?"). 
