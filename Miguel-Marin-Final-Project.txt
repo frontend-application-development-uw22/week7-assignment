@@ -1,0 +1,37 @@
+Project Name: Digital Diviner
+
+Elevator pitch:
+
+Digital Diviner is a for-fun/entertainment web app that will be used by fans of Harry Potter / Magic / Fantasy enthusiasts. This web app will serve as a sort of interactive spell and potions book that lists all the known spells and potions in the Harry Potter universe including its uses, the incantation and such.
+
+The user will create an account and have access to all the content. Each spell and potion will have a "To Learn" button which users can click and it will add that specific spell/potion to their "To Learn" list 
+
+
+Dependencies:
+
+-Firebase or similar platform for user authentication
+-Spells/Potions JSON Data file
+
+
+Tasks:
+
+-Setup create-react-app scaffold
+-Enable User authentication (user authentication would be a nice to-have, but if it can't be figured put in a timely manner, will need to scrap this part and make it fully open) 
+-Call the JSON data file and print results
+-Store API results in React component state
+-Render
+-Add to learn functionality
+-Styling
+-Deploy
+
+- Week 1: 
+
+Create react app, setup firebase and set up user authentication 
+
+- week 2: 
+
+Work with Json data and style
+
+- Week 3:
+
+continue/finalize styling and deploy 
