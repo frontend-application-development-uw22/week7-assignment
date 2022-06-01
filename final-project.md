@@ -34,6 +34,7 @@ Quickly find and explore any US national park. Filter parks based on activity or
 - Create /activites and /topics pages for filtering
 - Add Google map API to /{state}, /actitivies, and /topics pages
 - Set up carousel on /{state}/{park-name}/ page
+- Create user authentication to allow for "favoriting" parks
 - Testing / PropTypes
 
 ## Plan
@@ -49,4 +50,5 @@ Quickly find and explore any US national park. Filter parks based on activity or
   - Add Google map API to /{state}, /actitivies, and /topics pages
 - Week 3
   - Set up carousel on /{state}/{park-name}/ page
+  - Create user authentication to allow for "favoriting" parks
   - Testing / PropTypes
