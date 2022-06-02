@@ -1,0 +1,13 @@
+Project Name: react-firebase-ecomerce-sdk
+
+Who Will Use it: Developers who want to quickly setup the front end for an online store and use firebase as a db service
+
+Value it will provide end user: It will bring a devloper speed by giving boilerplate code to build online store
+
+
+Pitch: 
+
+    What I intend this project to be is an SDK for future projects that I may encounter by having a cookie
+    cutter type site I can easily modify to clients needs. For this class what I will build is the sample app
+    for the SDK that will be deployed on AWS amplify. 
+

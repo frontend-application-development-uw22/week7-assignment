@@ -1,0 +1,19 @@
+NPM Dependencies
+
+  1. crypto === require('node:crypto')    --- This builtin node 
+  2. ua-parser-js === npm i ua-parser-js  --- To view customers device information
+  3. redux-react-session === npm i redux-react-session  --- Sessions to ensure information travels to firebase to the proper doc
+  4. react-hook-form === npm install react-hook-form  ---in line form validition
+  5. react-session === npm install react-client-session --save   ---manages clients session 
+            // not sure which session manager is easier to implemen...kepping both for reference
+  
+  6. react-bootstrap === npm install react-bootstrap bootstrap  ---bootstrap
+  7. mui === npm install @mui/material @emotion/react @emotion/styled   ---materialUI
+API Dependencies
+
+  https://ipinfo.io/    API key is needed in deployment
+
+Database
+
+  firebase === npm i firebase
+
