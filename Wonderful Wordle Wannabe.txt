@@ -1,0 +1,33 @@
+Wonderful Wordle Wannabe
+
+Quordle is a version of a popular word game Wordle, except instead of trying to guess one five letter word, players try to guess four words simultaneously with only nine attempts. Wonderful Wordle Wannabe will further improve the quality these games for Quordle and Wordle fans by adding more features, options, and unrestricted ways-to-play. 
+Wordle has been purchased by the New York Times, valued at an undisclosed “low-seven-figures”, which demonstrates its value to users and organizations alike. 
+Dependencies:
+* Heroku Random Word API
+* Merriam-Webster Dictionary API
+Tasks: 
+* Setup create-react-app scaffold
+* Call the Random Word API and print only five letter words
+* Check words against Merriam-Webster Dictionary API to make sure they are real words
+* If not real words, loop API
+* Store API results in React component state
+* Use keyboard to enter words, validate words against Dictionary API
+* Display valid words and display correct, sort-of-correct, and wrong letters
+* Disable entered letters from keyboard
+* Render React state
+Plan: 
+1) Week 1
+a) Setup react app 
+b) Complete API calls and make sure they pass checks or loop
+
+2) Week 2
+a) Complete the virtual keyboard
+b) Complete the word display
+c) Complete HTML render
+
+3) Week 3
+a) Complete CSS
+b) Complete ‘nice-to-haves’
+
+
+
