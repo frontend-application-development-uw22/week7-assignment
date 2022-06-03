@@ -1,63 +1,97 @@
-# Week 7 Assignment
+# vocab.games
 
-Your assignment for this week is to think of a final project idea and create a plan for the project.
+![Wireframe of vocab.games.](https://i.imgur.com/nwFkyXf.png)
 
-## Final Project Requirements
+Inform, reason, and persuade with precision and clarity by expanding your vocabulary! 
 
-* The project must be a React application, bootstrapped with `create-react-app`
-* Your app must be created and visible in a Github repo under your Github account
-* Your app must be your own work. You may work in a group of up to **3 people** if you'd like, but be aware that you'll need to come up with a strategy for working together. Most developers on small projects create branches for new features/fixes, then merge them back into the `main` branch. Merge conflicts can arise, and you'll need to resolve them as you go.
-  * The simplest and most straightforward workflow for each team member:
-    ```bash
-    # create a branch off of main
-    git checkout main
-    git branch -b feat/new-feature-name
+`vocab.games` is a suite of games and tools built from vocabulary-building best-practices.
 
-    # commit code to this branch
-    git add .
-    git commit -m 'more code'
+## Vocabulary
 
-    # periodically push to Github
-    git push
-    ```
-  * Create pull requests on Github into the `main` branch when ready to merge code. It's recommended that you merge only working and/or tested code.
-* Your app should be deployed onto a web server and publicly accessible.
-* Your app should be *polished*. Some recommendations for this requirement:
-  * Remove `console.log` statements once you're finished with development
-  * Utilize CSS and images to make your app look professional
-  * Check for any React errors in the console
-  * Perform some basic user testing. Have other people use your app and receive feedback on usability
-  * Keep your feature set small, so you'll have time to polish the app
+**Build** your vocabulary in chunks of algorithmically generated, semi-related words, or choose specific words of personal interest (if you're a rebel like that).
 
-Other than the above requirements, you're encouraged to be creative and create something you're proud of. It can be as simple or as complex as you want, and it should be high quality.
+**Download** your vocabulary as a JSON file. It's *your* vocabulary, after all.
 
-## Assignment Requirements
+**Upload** your vocabulary as a JSON file. IDGAF!
 
-Above are the requirements for the project. For this week however, you'll need to create a plan for your project. More details are to come, but you'll need to create a pull request with the following:
+> Like any good game, `vocab.games` tracks your vocabulary metrics and calculates a score for you to assign personal meaning to and brag about to your friends.
 
-* The name of your project
-* An elevator pitch (a paragraph about what your project does). Be sure to address:
-  * Who will use your project
-  * The value that your project will provide to the end user
-* [Wireframes](https://en.wikipedia.org/wiki/Website_wireframe) to help visualize what your project will look like
-  * These wireframes do not have to be high-fidelity. You're free to use boxes, hand drawings, tools such as Draw.io, etc.
-* A list of dependencies you'll be using for your project (npm modules, APIs, Firebase, etc.)
-  * This list will likely change as you work on your project, but listing your dependencies will help you visualize the complexity of the project
-* A list of tasks that need to be completed for your project
-  * Example list of tasks for the Star Wars films example:
-    * Setup `create-react-app` scaffold
-    * Call the Star Wars API and print results
-    * Store API results in React component state
-    * Render React state
-* A plan for the next 3 weeks and what you plan to accomplish each week
+## Games
 
-## Recommendations
+Play **Hinky Pinky** to hone your synonym-searching skills through numero-syllabic restrictions!
 
-* Keep the scope of your project small. A small, completed project is much better than a large, incomplete project. You can create a list of "nice to have" features that you can work on if you have time (similar to how our assignments have a main list of requirements and "bonus" items).
-* Ensure you have plenty of buffer time in your schedule. Life events pop up, and tasks can take longer than initially estimated.
+Did you know that "evil buddy" is a hinky pinky of "bad dude?" That's like *5 points.*
 
-## Submitting your Project Idea
+<details>
+  <summary>How about a hinkity pinkity of "bad dude?"</summary>
+  *Sinister gentleman* or *villainous grandfather* both work. Each word should be 3 syllables and synonymous with "bad" or "dude."
+</details>
 
-1. Fork this repository
-2. Add your project name, elevator pitch, wireframes, dependencies, task list, and plan to the Github repo (you can add a markdown file + images or links to images)
-3. Create a pull request
+**Fill** challenges your ability to fill-in-the-blank with just the right word.
+
+Play **Hang Man** to develop your deductive reasoning and learn new words to add to your vocabulary.
+
+## Dependencies
+
+* ReactJS
+* linguarobot.io
+* dictionaryapi.com
+
+## Tasks
+
+### MVP (Wk. 1-2)
+
+- [ ] *Build* displays words with definitions & IPA notation.
+- [ ] *Build* displays words with pronunciation audio.
+- [ ] *Build* displays prompts when inputting word data.
+- [ ] *Build* accepts and stores word data.
+- [ ] *Build* allows removing word data.
+- [ ] *Build* allows searching for specific words.
+- [ ] *Build* allows random word selection.
+- [ ] *Build* finds synonyms and related words automatically. 
+- [ ] *Vocabulary* displays words & word data from *Build.*
+- [ ] *Vocabulary* allows editing word data.
+- [ ] *Score* increments.
+- [ ] *Build* displays a new word when `RETURN` is pressed.
+- [ ] *Build* opens a new word data field in the same data category when `TAB` is pressed.
+- [ ] *Build* opens a new word data field in the next data category when `Q` is pressed.
+- [ ] *Build* bolds lexemes.
+- [ ] *Build* CSS.
+- [ ] *Vocabulary* CSS.
+- [ ] *Build* accessed when `B` is pressed.
+- [ ] *Vocabulary* accessed when `V` is pressed.
+
+### Download (Wk. 3)
+
+- [ ] *Download* serves JSON file of user's vocabulary.
+- [ ] Data persists somehow.
+
+### Game: Hinky Pinky (Wk. 3)
+
+- [ ] *Hinky Pinky* accessed when `H` is pressed.
+- [ ] *Hinky Pinky* displays valid challenge phrases.
+- [ ] *Hinky Pinky* checks response when `RETURN` is pressed.
+- [ ] *Hinky Pinky* accepts valid responses.
+- [ ] *Hinky Pinky* increments *Score.*
+- [ ] *Hinky Pinky* CSS.
+
+### Game: Fill (Bonus)
+
+- [ ] *Fill* accessed when `F` is pressed.
+- [ ] ...
+
+### Game: Hang Man (Bonus)
+
+- [ ] *Hang Man* accessed when `G` is pressed.
+- [ ] ...
+
+### Upload (Bonus)
+
+- [ ] *Upload* accepts valid JSON.
+- [ ] *Upload* rejects invalid JSON.
+- [ ] *Upload* adds to user's vocabulary.
+
+## Future Features
+
+* "Morphology" section added to words, if I can find an API that breaks morphemes.
+* *Settings,* with features like dark-mode and toggling tooltips/hints.
