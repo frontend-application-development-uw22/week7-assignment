@@ -27,7 +27,9 @@ Did you know that "evil buddy" is a hinky pinky of "bad dude?" That's like *5 po
   *Sinister gentleman* or *villainous grandfather* both work. Each word should be 3 syllables and synonymous with "bad" or "dude."
 </details>
 
-**Fill** challenges your ability fill-in-the-blanks.
+**Fill** challenges your ability to fill-in-the-blank with just the right word.
+
+Play **Hang Man** to develop your deductive reasoning and learn new words to add to your vocabulary.
 
 ## Dependencies
 
