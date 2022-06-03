@@ -1,0 +1,22 @@
+Project Name: Harvest App
+
+This app will be the first phase of a portfolio app to demonstrate familiarity with a variety of app technologies.
+
+The ultimate purpose of the app will be a management tool for the operations that occur during the harvest of grains in
+the Palouse Region of Washington. Actors include, Growers, Land Owners, Harvesters, Shippers, Commercial Storage facilities,
+Field Managers, Truck Drivers and others. The users of the app will be individuals that fill the actor roles
+previously mentioned. Each actor will have specific requirements for information access and data entry. This will help
+reduce some of the manual effort these parties currently use to keep track of harvest activities.
+
+I plan to write my own web services to support the data access. My intent is to make a live connection to a graph
+database with the web services but if that proves to time intensive the web services with supply staged data.
+
+Tasks
+Initial UI development
+Web services development
+Database population
+Refine UI
+Testing
+Deploy webservices
+Deploy react app.
+Demo
