@@ -1,0 +1,108 @@
+.shoppingcart_shippingAddress {
+    float: left;
+    width: 35%;
+    border: 1px solid;
+    height: 260px;
+    margin-left: 7.3%;
+    margin-top: 15px;
+}
+.shoppingcart_reviewItems{
+    float: left;
+    width: 35%;
+    border: 1px solid;
+    height: auto;
+    margin-left: 7.3%;
+    margin-top: 15px;
+}
+
+.shoppingcart_shippingAddress button {
+    float: right;
+    margin-right: 10px;
+}
+
+.shippingAddress h5{
+    background-color: cadetblue;
+    padding: 5px;
+    color: white;
+    margin:2px;
+}
+.shippingAddress p {
+    text-align: left;
+    padding: 15px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    width: 100%;
+    margin:0px
+}
+.modal{
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  min-width: 250px;
+  min-height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+.bg {
+    z-index: 9998;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.show{
+    display: block;
+   
+}
+.hide{
+    display: none;
+}
+.shoppingCart {
+    display: grid;
+}
+
+.form_div {
+    padding: 15px;
+}
+
+.form_div label {
+    padding:5px
+}
+.form_div input {
+    padding: 5px;
+}
+.bookoverview_container {
+    display: flex;
+}
+.bookoverview_imgSection {
+    width:30%;
+}
+.bookoverview_description{
+    width: 50%;
+    text-align: initial;
+}
+.review_container {
+    display: flex;
+}
+.review_imgSection {
+    width: 25%;
+    padding: 15px;
+
+}
+.review_description{
+    text-align: initial;
+    width: 60%;
+    margin-left: -5%;
+}
+.review_imgSection img {
+    width:100px;
+    height:100px;
+}
+.deleteBtn {
+    float: right;
+}
