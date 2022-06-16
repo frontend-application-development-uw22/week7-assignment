@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './book-store.css';
 import Carousel from './carousel/carousel';
 import BookList from './book-list/book-list';

@@ -4,9 +4,10 @@ import BookUi from './book-ui';
 import '../book-list/book-list.css'
 
 export default function BookList ({idx}) {
+   
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [msg, setMessage] = useState('');
+ 
     const API_KEY = 'pVOgAehZw0GFSu8TPgZcXJYU6GGoxA0q';
     const url = `https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=${API_KEY}`;
 
@@ -18,14 +19,14 @@ export default function BookList ({idx}) {
             setLoading(false);
         })
         .catch((error) => {
-            setMessage("No data found");
+            alert("No data found");
         })
     },[idx, url])
  
     if(loading) {
         return <h5>Loading...</h5>;
     }
-    
+   
     const  listOfBooks = books.map((ele, idx) => 
         <BookUi 
         key = { idx }

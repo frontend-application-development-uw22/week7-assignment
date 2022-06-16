@@ -7,7 +7,7 @@ export default function ReviewUi({url, description, title, price, deleteItem }) 
     </section>
     <section className ="review_description"> 
     <p>Title: {title}</p>  
-       <p>Price ${price} <span> <button className="deleteBtn" onClick = {deleteItem}>Delete</button></span></p>
+       <p>Price ${price} <span> <button className="deleteBtn" onClick = {deleteItem}>Remove from cart</button></span></p>
       
     </section>
 </div>)

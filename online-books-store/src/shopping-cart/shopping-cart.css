@@ -1,14 +1,14 @@
 .shoppingcart_shippingAddress {
     float: left;
-    width: 35%;
+  
     border: 1px solid;
-    height: 260px;
+    height: 185px;
     margin-left: 7.3%;
     margin-top: 15px;
 }
 .shoppingcart_reviewItems{
     float: left;
-    width: 35%;
+
     border: 1px solid;
     height: auto;
     margin-left: 7.3%;
@@ -31,7 +31,7 @@
     padding: 15px;
     inline-size: 150px;
     overflow-wrap: break-word;
-    width: 100%;
+    width: 115%;
     margin:0px
 }
 .modal{
@@ -64,6 +64,8 @@
 }
 .shoppingCart {
     display: grid;
+    margin-left: 5%;
+    width: 45%;
 }
 
 .form_div {
@@ -105,4 +107,40 @@
 }
 .deleteBtn {
     float: right;
+}
+.shoppingCart_orderconatiner {
+    width: 40%;
+    margin-left: 3%;
+}
+.shoppingcart_main {
+    display: flex;
+}
+.shoppingcart_container {
+    display: flex;
+}
+.shoppingCart_order {
+ 
+    border: 1px solid;
+    height: 400px;
+  
+    margin-top: 15px;
+
+}
+.shippingAddress_container p {
+    text-align: left;
+    padding: 6px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    width: 90%;
+    margin:0px
+}
+.shippingAddress_container h5 {
+background-color: cadetblue;
+padding: 5px;
+color: white;
+margin: 2px;
+}
+.shippingAddress span {
+    float:right;
+    margin-right:20%
 }

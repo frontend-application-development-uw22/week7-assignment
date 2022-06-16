@@ -6,7 +6,7 @@ import db from '../db';
 export default function BookOverview () {
     const [loading, setLoading] = useState(true);
     const [entry, setEntry] = useState({});
-  
+    const [idRef, setIdRef] = useState([]);
     const [error, setError] = useState(false);
     const { title } = useParams();
     const navigate = useNavigate();
@@ -49,6 +49,8 @@ export default function BookOverview () {
 
     const addToCart = () => {
         const entriesRef = collection(db, 'cartEntries');
+    //    /cartEntries/H3urd8IdIx0mVqHA14hG/newEntry
+     
         addDoc(entriesRef, {
             author : entry.author,
             description: entry.description,
@@ -57,6 +59,9 @@ export default function BookOverview () {
             rank: entry.rank,
             title: entry.title,
             url : entry.url,
+        }).then(docRef => {
+            setIdRef([...idRef, docRef.id])
+            console.log(docRef.id)
         })
         alert("Book has been successfully added to the cart!")
     }
