@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Baby Shower Website TEST",
+        "text": "A pandemic era baby shower.",
+        "image": "https://i.imgur.com/DwE6SIz.png"
+    },
+    {
+        "title": "Hangcat",
+        "text": "A Hangman style game, but with a cute falling cat instead of...well...you know.",
+        "image": "https://i.imgur.com/gJveKPm.png"
+    },
+    {
+        "title": "Airbnb Mock",
+        "text": "AirBnb mock up made with React.",
+        "image": "https://i.imgur.com/kNWO7FH.png"
+    }
+] 
