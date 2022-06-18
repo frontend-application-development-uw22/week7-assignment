@@ -1,0 +1,4 @@
+Dependencies
+
+1. npm modules
+2. Firebase
