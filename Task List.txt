@@ -1,0 +1,15 @@
+Task List
+
+1. npx create-react-app superchat
+2. code superchat
+3. npm install firebase react-firebase-hooks
+4. import firebase from 'firebase/app'
+5. import firebase/firestore
+6. import firebase/auth
+7. import react-firebase-hooks/auth
+8. import react-firebase-hooks/firestore
+9. reference a firestore collection
+10.query documents in a collection 
+11.bind state to form input
+12.write value to the firestore
+13. create new document to the database 
