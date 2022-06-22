@@ -33,7 +33,7 @@ export default function  ShoppingCartApp () {
                     setError(true);
                     setLoading(false)
                 })
-    },[getEntries])
+    },[])
     if(loading){
         return <div><h5>loading...</h5></div>
     }
