@@ -1,0 +1,51 @@
+.header {
+    display:flex;
+    border:1px solid black;
+    background-color: cadetblue;
+}
+.header h1 {
+    width:20%;
+    color:white;
+}
+.header p {
+    width:75%;
+    text-align: right;
+}
+.header p button {
+    margin: 10px 20px;
+}
+.bookStore_ad{
+    border: 1px solid black;
+}
+.bookStore_ad h4 {
+    color: cadetblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+
+  .carouselUi_slideshow img {
+    width: 85%;
+    height: 470px;
+    margin-top: 30px;
+  }
+  .carouselUi_slideshow div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carouselUi_slideshow button {
+    font-size: 50px;
+    background: none;
+    border: none;
+  }

@@ -1,0 +1,36 @@
+.bookList_container{
+    display: -webkit-box;
+    width: 88%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.bookui_container img {
+    width: 185px;
+    height: 250px;
+}
+.bookui_container{
+    width: 15%;
+    margin: 15px;
+}
+.bookui_container h5 {
+    margin: 2px;
+}
+.bookui_container h6 {
+    margin: 2px;
+}
+.bookList_main {
+    overflow-x: scroll;
+   
+}
+.bookStore_header {
+    background-color: aliceblue;
+    padding: 10px;
+    width: 84%;
+    margin: 0 auto;
+    color: navy;
+}
+

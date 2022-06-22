@@ -1,0 +1,4 @@
+.nonFiction_container .bookList_main .bookList_container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
