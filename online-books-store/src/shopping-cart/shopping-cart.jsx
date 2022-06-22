@@ -85,7 +85,7 @@ return (<div>
             shipping = "2"
             totalBeforeTax = "0.00"
             tax = "3.00"
-            orderTotal = "3.00"/>
+            orderTotal = "5.00"/>
         </section>
         <p>Thank you for choosing us!</p>
     </div>
